@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -19,5 +19,37 @@
             <a href="App-ads.txt" class="text-blue-400 hover:underline">Download Ads Configuration File</a>
         </div>
     </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UnicornVPN - Secure Your Connection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="max-w-lg text-center" id="content">
+        <img src="ic_launcher-playstore.png" alt="UnicornVPN Logo" class="w-32 mx-auto mb-4" id="logo">
+        <h1 class="text-3xl font-bold mb-2" id="title">UnicornVPN</h1>
+        <p class="text-gray-300 mb-6">Secure your internet with our fast and reliable VPN service.</p>
+        
+        <a href="https://play.google.com/store/apps/details?id=com.arm.vpn" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-semibold" id="downloadBtn">Download App</a>
+        
+        <div class="mt-6" id="config">
+            <h2 class="text-xl font-semibold mb-2">App-ads.txt</h2>
+            <a href="App-ads.tx" class="text-blue-400 hover:underline">Download Ads Configuration Files</a>
+        </div>
+    </div>
+    
+    <script>
+        gsap.from("#logo", { opacity: 0, y: -50, duration: 1 });
+        gsap.from("#title", { opacity: 0, y: -20, duration: 1, delay: 0.5 });
+        gsap.from("#downloadBtn", { opacity: 0, scale: 0.8, duration: 0.8, delay: 1 });
+        gsap.from("#config", { opacity: 0, y: 30, duration: 1, delay: 1.2 });
+    </script>
 </body>
 </html>
