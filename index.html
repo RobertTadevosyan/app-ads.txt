@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="0erEOFcz_6YVvTWHwmpnSs14_s88kUTN_mpskzwV7z0" />
+    
     <title>UnicornVPN - Secure Your Connection</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -34,5 +34,207 @@
         gsap.from("#downloadBtn", { opacity: 0, scale: 0.85, duration: 0.8, delay: 1 });
         gsap.from("#config", { opacity: 0, y: 30, duration: 1, delay: 1.2 });
     </script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="0erEOFcz_6YVvTWHwmpnSs14_s88kUTN_mpskzwV7z0" />
+    <title>UnicornVPN - Secure Your Connection</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <style>
+        .hover-scale:hover {
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+    <title>UnicornVPN - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .app-logo {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .container {
+            padding: 20px;
+        }
+        .app-description, .long-description, .screenshots, .other-apps {
+            margin-bottom: 40px;
+        }
+        .screenshots img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .screenshots img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .other-apps .app-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .other-apps .app-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .other-apps .app-item img {
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .other-apps .app-item .app-info {
+            flex: 1;
+        }
+        .other-apps .app-item .app-info h3 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .download-btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .app-download-section {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .app-download-section .download-btn {
+            font-size: 18px;
+            padding: 15px 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="ic_launcher-playstore.png" alt="UnicornVPN Logo" class="w-36 mx-auto mb-5 hover-scale" id="logo">
+        <h1>UnicornVPN</h1>
+        <p>Your go-to solution for free and fast VPN on Android</p>
+    </header>
+
+    <div class="container">
+        <!-- App Description Section -->
+        <section class="app-description">
+            <h2>About My App</h2>
+            <p>Fast & Secure Unicorn VPN for Privacy, Streaming, and Unblocking Websites.</p>
+        </section>
+
+        <!-- Long Description Section -->
+        <section class="long-description">
+            <h2>Detailed Description</h2>
+            <p>Unlock the Power of Secure Browsing with Unicorn VPN!
+Unicorn VPN is a fast, reliable, and easy-to-use VPN that ensures your online privacy while offering unlimited access to global content. Whether you're at home or on the go, our VPN app encrypts your internet connection and keeps your personal information safe from hackers, ISPs, and advertisers.
+
+Why Choose Unicorn VPN?
+
+Top-Tier Security
+We use encryption to protect your data, making sure your sensitive information is always secure and private. You can browse, shop, and stream without worrying about data theft or exposure.
+
+Unlimited Access to Content
+Unlock websites, apps, and streaming services from anywhere in the world. Whether it’s watching region-locked content or accessing your favorite apps while traveling, Unicorn VPN ensures your internet experience remains free and unrestricted.
+
+Fast & Reliable Connection
+With servers in multiple countries, you’ll experience lightning-fast speeds for streaming, gaming, and browsing. No more buffering or lag, just smooth, uninterrupted connectivity.
+
+No Logs, Total Privacy
+We believe in your privacy. Unicorn VPN has a strict no-logs policy, ensuring that none of your online activities are stored or monitored. Your data is yours alone.
+
+Easy-to-Use Interface
+Our app is designed to be intuitive, even for those new to VPNs. Simply tap to connect and enjoy safe, unrestricted browsing in seconds.
+
+Global Servers
+Access content from all over the world with multiple server locations. Whether you’re in the US, Europe, Asia, or beyond, you can connect to the fastest server available for optimal performance.
+
+Bypass Geo-Restrictions
+Use our VPN to easily bypass censorship and geo-blocking, allowing you to access websites and services that might be unavailable in your region.
+
+Completely Free VPN
+Unicorn VPN is 100% free to use, with no hidden fees or premium subscriptions. Enjoy all the features without any limitations or surprises.
+
+Features Include:
+
+No-logs policy for complete privacy
+Global server locations for better connection
+One-tap connection for easy access
+Unlimited bandwidth with high-speed servers
+Protect Your Privacy Today!
+Download Unicorn VPN now and experience the internet without borders. Enjoy secure browsing, streaming, and more with a VPN that puts your privacy first.</p>
+        </section>
+
+        <!-- Screenshots Section -->
+        <section class="screenshots">
+            <h2>Screenshots</h2>
+            <img src="Preview 1.png" alt="App Screenshot 1">
+            <img src="Preview 2.png" alt="App Screenshot 2">
+            <img src="Preview 3.png" alt="App Screenshot 3">
+            <img src="Preview 4.png" alt="App Screenshot 4">
+            <img src="Preview 5.png" alt="App Screenshot 5">
+            <img src="Preview 6.png" alt="App Screenshot 6">
+        </section>
+
+        <!-- App Download Section -->
+        <section class="app-download-section">
+            <h2>Download My App</h2>
+            <a href="https://play.google.com/store/apps/details?id=com.arm.vpn" class="bg-blue-500 hover:bg-blue-600 text-white px-7 py-3 rounded-lg text-xl font-semibold hover-scale" id="downloadBtn">Download Now</a>
+        </section>
+
+        <!-- Other Apps Section -->
+        <section class="other-apps">
+            <h2>Other Apps</h2>
+            <div class="app-item">
+                <img src="other-app1.jpg" alt="Other App 1">
+                <div class="app-info">
+                    <h3>2048</h3>
+                    <p>Classic 2048 game, play and relax.</p>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=lets.play.game" class="download-btn">Download</a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
